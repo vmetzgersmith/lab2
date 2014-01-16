@@ -23,12 +23,46 @@ body {
 
 .jumbotron:after {
      content:"";
-     background: url("http://lorempixel.com/1140/283");
-     opacity: 0.2;
+     background: url("http://lorempixel.com/1140/280");
+     opacity: .5;
      top: 0;
      left: 0;
      bottom: 0;
      right: 0;
      position: absolute;
      z-index: -1;	
+}
+
+<div class="project";>
+     <img class="thumbnail" src="img1.png"/>
+     <img class="thumbnail" src="img2.png"/>
+</div>
+
+
+
+img .thumbnail {
+     width: 50px;
+     height: 100px;
+     border: 1px solid #434343;
+}
+
+.contact-info {
+     font-size: 10pt;
+     color: #cccccc;
+}
+
+.project {
+     background-color: #deebf7;
+     margin-left: 20px;
+     padding: 20px;
+     width: 525px;
+}
+p{
+     font-variant: small-caps;
+}
+.project p{
+     font-variant: small-caps;
+}
+#project1 {
+     font-variant: small-caps;
 }
